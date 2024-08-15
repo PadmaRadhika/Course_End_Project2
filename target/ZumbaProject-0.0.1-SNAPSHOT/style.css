@@ -1,0 +1,170 @@
+@charset "ISO-8859-1";
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2e69c1;
+    width: 15%;
+    position: fixed;
+  	height: 100%; 	
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /*li {
+    float:left;
+    
+    
+  }*/
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  div { 
+    width: 800px;
+    height: 370px;
+    border-radius: 5px;       
+    padding: 20px;
+    margin: 0;
+   
+  }
+  .tabs{
+	  background-color:rgb(237, 244, 252);
+	  margin-left:15%;	  
+	  height:900px;
+	  width:900px;
+	  background-size:cover;
+	  font-family: Arial, Helvetica, sans-serif;
+  }
+  .canvas1 {
+	  margin-left:15%;
+	  padding:1px 16px;
+	  width:25%;
+	  max-width:500px;
+  }
+  .canvas2 {
+	  margin-left:5%;
+	  padding:1px 5px;
+	  width:100%;
+	  max-width:400px;
+	  display: inline-block;
+	  float:inline-start;
+	  
+  }
+  .canvas3 {
+	  margin-left:2%;
+	  padding:1px 16px;
+	  width:50%;
+	  max-width:400px;
+	  display: inline-block;
+	  float:left;
+  }
+  .canvasalign{
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: center;
+	  align-items: center;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: start;    
+    border: 3px solid rgb(60, 110, 168);
+     
+  }
+  .batchcenter {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: start; 
+    border: 3px solid rgb(60, 110, 168);     
+  }
+  .updatecenter {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: start;    
+    top : 50%;
+    left: 50%;    
+    border: 3px solid rgb(60, 110, 168);
+     
+  }
+  .container {
+    display: flex;
+    justify-content:center;
+    align-items:start;
+    background-image: url("images/gym_background.jpg");
+    background-size: cover;
+    height: 100%;    
+    width: 100%;
+    left:0;
+    top:0;    
+  } 
+  .error{	  
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-weight: bold;
+    justify-content:center ;  
+  }
+  .success{	  
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-weight: bold; 
+    justify-content:center ; 
+  }
+  form{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+  }
+  input[type=text], select {
+    width: 50%;
+    padding: 7px 7px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    background-color: #2e69c1;
+    color: white;
+    padding: 7px 7px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:large;
+  }  
+  input[type=submit]:hover {
+    background-color: #4c6daf;
+  }
+  
+
+
+i{
+	font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size:small;
+}
+.control-label:after 
+{
+	content:"*";
+	color:red;
+}

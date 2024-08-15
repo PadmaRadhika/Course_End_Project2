@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>Phase_End_Project2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ParticipantServlet</display-name>
+    <servlet-name>ParticipantServlet</servlet-name>
+    <servlet-class>com.example.zumbaproject.controller.ParticipantServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ParticipantServlet</servlet-name>
+    <url-pattern>/ParticipantServlet</url-pattern>
+    <url-pattern>/participant</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>BatchServlet</display-name>
+    <servlet-name>BatchServlet</servlet-name>
+    <servlet-class>com.example.zumbaproject.controller.BatchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BatchServlet</servlet-name>
+    <url-pattern>/BatchServlet</url-pattern>
+    <url-pattern>/batch</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LandingServlet</display-name>
+    <servlet-name>LandingServlet</servlet-name>
+    <servlet-class>com.example.zumbaproject.controller.LandingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LandingServlet</servlet-name>
+    <url-pattern>/LandingServlet</url-pattern>
+    <url-pattern>/landingpage</url-pattern>
+  </servlet-mapping>
+</web-app>
